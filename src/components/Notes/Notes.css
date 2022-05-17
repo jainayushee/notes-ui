@@ -1,0 +1,41 @@
+.input-area{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.note{
+    min-height: 130px;
+    position: relative;
+    display: flex;
+    padding: 1rem;
+}
+.note-body{
+    flex: 9;
+}
+
+.toolbar-group{
+    flex:1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    bottom: 10px;
+}
+
+.pal{
+    bottom: 25px;
+    z-index: 1000;
+    position: absolute;
+}
+
+.heading-style{
+    color: #5f6368;
+    letter-spacing: .07272727em;
+    font-family: Roboto,Arial,sans-serif;
+    font-size: .6875rem;
+    font-weight: 600;
+    line-height: 1rem;
+    text-transform: uppercase;
+    /* margin: 32px 32px 8px; */
+    margin-top: 20px;
+}

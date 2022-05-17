@@ -1,0 +1,15 @@
+.list-group--item:hover{
+    background-color: #eee;
+}
+
+.list-item-active{
+    background-color: #feefc3 !important;
+    color: black !important;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.text-link {
+    color: inherit;
+    text-decoration: inherit;
+}

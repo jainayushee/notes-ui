@@ -1,0 +1,46 @@
+/* .card{
+    height: auto;
+    width: auto;
+}
+
+. */
+
+.palette{  
+  opacity: 1;
+  transition: opacity 0.3s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  /* z-index: 4000; */
+  min-width: 6rem;
+  min-height: 5rem;
+  border-radius: 0.5rem; 
+  /* padding: 0 10px; */
+  flex-direction: column;
+}
+
+.palette-btn{
+  height: 1.3rem;
+  width: 1.3rem;
+  border-radius: 50%;
+  border-width: 0.1rem 0.1rem 0.1rem 0.1rem;
+  margin: 0.2rem;
+  margin-bottom: 0.3rem;
+  cursor: pointer;
+  padding: 5px !important;
+}
+
+.palette-row{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.palette-col{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}

@@ -1,0 +1,23 @@
+.note{
+    min-height: 130px;
+    position: relative;
+    display: flex;
+    padding: 1rem;
+}
+.note-body{
+    flex: 9;
+}
+
+.toolbar-group{
+    flex:1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    bottom: 10px;
+}
+
+.pal{
+    bottom: 25px;
+    z-index: 1000;
+    position: absolute;
+}

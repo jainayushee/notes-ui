@@ -1,0 +1,66 @@
+{
+  "data": [
+    {
+      "id": "1",
+      "value": "One",
+      "userid": "def",
+      "archive": false,
+      "bin": false,
+      "pinned": true,
+      "color": "#bde0fe"
+    },
+    {
+      "id": "2",
+      "value": "Two",
+      "userid": "def",
+      "archive": false,
+      "bin": false,
+      "pinned": false,
+      "color": "#ffc8dd"
+    },
+    {
+      "id": "3",
+      "value": "Three",
+      "userid": "def",
+      "archive": false,
+      "bin": false,
+      "pinned": false,
+      "color": "#fff"
+    },
+    {
+      "id": "4",
+      "value": "Four",
+      "userid": "def",
+      "archive": false,
+      "bin": false,
+      "pinned": false,
+      "color": "#2a9d8f"
+    },
+    {
+      "id": "6",
+      "value": "Six",
+      "userid": "def",
+      "archive": false,
+      "bin": false,
+      "pinned": false,
+      "color": "#cdb4db"
+    },
+    {
+      "id": "7",
+      "value": "Seven",
+      "userid": "def",
+      "archive": false,
+      "bin": false,
+      "pinned": false,
+      "color": "#cdb4db"
+    },
+    {
+      "id": "Vfm6mO_",
+      "value": "Five",
+      "userid": "def",
+      "archive": false,
+      "bin": false,
+      "pinned": false
+    }
+  ]
+}
