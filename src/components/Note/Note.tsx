@@ -52,11 +52,6 @@ export default function Note(props: any) {
       props.setFlag(!props.flag);
     });
   }
-  useEffect(() => {
-    console.log(palette);
-    //console.log(props.component);
-    
-  }, [palette])
 
   return (
 
@@ -69,11 +64,11 @@ export default function Note(props: any) {
       </div>
       <div className="toolbar">
         <div className="toolbar-group">
-          {props.component !== 'bin' && <i className="fa-solid fa-palette pe-3" onMouseLeave={() => hidePallete()} onMouseEnter={() => showPallete()} />}
-          {(props.component === 'bin' || props.component ==='archive' || props.component !== 'console') ? undefined : <i className="fa-solid fa-pen pe-3" />}
+          {props.component !== 'bin' && <i className="fa-solid fa-palette pe-3" onClick={() => showPallete()} />}
+          {(props.component === 'bin' || props.component === 'archive' || props.component !== 'console') ? undefined : <i className="fa-solid fa-pen pe-3" />}
           <i className="fa-solid fa-trash-can pe-3" onClick={() => deleteNote()} />
           {props.component !== 'bin' && <i className="fa-solid fa-box-archive pe-3" onClick={() => archiveNote()} />}
-          {(props.component == 'bin' || props.component =='archive') ? undefined : < i className="fa-solid fa-thumbtack pe-3" onClick={() => pinAndUnpinNote()} />}
+          {(props.component == 'bin' || props.component == 'archive') ? undefined : < i className="fa-solid fa-thumbtack pe-3" onClick={() => pinAndUnpinNote()} />}
           {props.component === 'bin' && <i className="fa-solid fa-trash-arrow-up" onClick={() => restore()}></i>}
         </div>
       </div>

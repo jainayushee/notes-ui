@@ -24,11 +24,11 @@ export default function Palette(props: any) {
     console.log(showPalette);
     console.log(props.palette);
   }, [showPalette])
+
   return (
     <>
         <div className="palette"
-          onMouseOver={() => { setView() }}
-          onMouseLeave={() => { unsetView() }}>
+         >
           {(props.palette || showPalette ) && <>
           <div className="palette-row">
             {colors1.map((color, key) => {

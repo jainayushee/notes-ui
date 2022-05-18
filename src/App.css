@@ -9,3 +9,10 @@
 body{
   font-size: 62.5%;
 }
+
+.page-views{
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
