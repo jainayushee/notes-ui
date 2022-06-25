@@ -1,0 +1,13 @@
+.register-wrapper{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-field{
+    padding: 0.4rem;
+    margin-bottom: 3px;
+    
+    border: 1px solid #000
+}
