@@ -9,7 +9,7 @@ export default function Palette(props: any) {
 
   const handleClick = (e: any) => {
     NoteDataService.updateColor(props.note, e.target.id);
-    // props.setFlag(!props.flag)
+    props.setFlag(!props.flag)
   };
 
   const setView = () => {
@@ -19,11 +19,6 @@ export default function Palette(props: any) {
   const unsetView = () => {
     setPalette(false)
   }
-
-  useEffect(() => {
-    console.log(showPalette);
-    console.log(props.palette);
-  }, [showPalette])
 
   return (
     <>

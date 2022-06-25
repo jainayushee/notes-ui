@@ -60,7 +60,7 @@ export default function Note(props: any) {
         {props.data.value}
       </div>
       <div className="pal">
-        {palette && <Palette palette={palette} />}
+        {palette && <Palette note={props.data} palette={palette} setFlag={props.setFlag} flag={props.flag} />}
       </div>
       <div className="toolbar">
         <div className="toolbar-group">
